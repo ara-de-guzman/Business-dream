@@ -1,0 +1,56 @@
+[
+  {
+    "project": "Project 1",
+    "image": "./images/p1.jpg",
+    "type": "small",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+  },
+  {
+    "project": "Project 2",
+    "image": "./images/p2.jpg",
+    "type": "medium",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+  },
+  {
+    "project": "Project 3",
+    "image": "./images/p3.jpg",
+    "type": "big",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+  },
+  {
+    "project": "Project 4",
+    "image": "./images/p6.jpg",
+    "type": "small",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+  },
+  {
+    "project": "Project 5",
+    "image": "./images/p7.jpg",
+    "type": "medium",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+  },
+  {
+    "project": "Project 6",
+    "image": "./images/p8.jpg",
+    "type": "big",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+  },
+  {
+    "project": "Project 7",
+    "image": "./images/p9.jpg",
+    "type": "small",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+  },
+  {
+    "project": "Project 8",
+    "image": "./images/p10.jpg",
+    "type": "medium",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+  },
+  {
+    "project": "Project 9",
+    "image": "./images/p11.jpg",
+    "type": "big",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+  }
+]
