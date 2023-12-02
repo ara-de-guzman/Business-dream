@@ -346,13 +346,11 @@ header nav ul li a {
 .team-section-image {
   object-fit: cover;
   width: 30%;
-
 }
 .team-section-image img {
   width: 100%;
   object-fit: cover;
   height: 100%;
-
 }
 
 .team-section-text {
@@ -436,6 +434,22 @@ header nav ul li a {
 
 .work-section-select span:hover {
   color: var(--secondary-color);
+}
+
+/* animation */
+
+.animated-container {
+  animation: animateContainer 1s ease;
+}
+@keyframes animateContainer {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Media */
