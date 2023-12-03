@@ -108,11 +108,15 @@ header img {
 
 header nav ul {
   display: flex;
+  justify-content: space-evenly;
 }
 
 header nav ul li {
   margin-right: 6rem;
   position: relative;
+  text-align: left;
+
+  width: 100%;
 }
 
 header nav ul li::before {
@@ -133,7 +137,7 @@ header nav ul li::before {
 }
 
 header nav ul li:hover::before {
-  height: 180px;
+  height: 130px;
 }
 header nav ul li a:hover {
   color: var(--primary-color);
