@@ -7,10 +7,10 @@
   outline: none;
 }
 :root {
-  --primary-color: #fafafa;
-  --secondary-color: #7a1113;
-  --tertiary-color: #f3f3f3;
-  --quaternary: #3f3f41;
+  --lightest-color: #fafafa;
+  --red-color: #7a1113;
+  --light-color: #f3f3f3;
+  --dark-color: #201f1f;
 }
 
 html {
@@ -30,14 +30,14 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--quaternary);
+  color: var(--dark-color);
 }
 
 button {
   padding: 1rem 3rem;
   border: none;
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
+  background-color: var(--red-color);
+  color: var(--lightest-color);
   border-radius: 5px;
   font-size: 2rem;
   cursor: pointer;
@@ -46,7 +46,7 @@ button {
 
 button:hover {
   background-color: #f3f3f3;
-  color: var(--secondary-color);
+  color: var(--red-color);
 }
 /* end of common style */
 
@@ -124,7 +124,7 @@ header nav ul li::before {
   position: absolute;
   width: 100px;
   height: 0px;
-  background-color: var(--secondary-color);
+  background-color: var(--red-color);
   z-index: -1;
   top: -400%;
   left: -1.5rem;
@@ -132,7 +132,7 @@ header nav ul li::before {
 }
 
 .bg-nav a {
-  color: var(--secondary-color);
+  color: var(--red-color);
   font-weight: bold;
 }
 
@@ -140,7 +140,7 @@ header nav ul li:hover::before {
   height: 130px;
 }
 header nav ul li a:hover {
-  color: var(--primary-color);
+  color: var(--lightest-color);
 }
 
 header nav ul li a {
@@ -168,7 +168,7 @@ header nav ul li a {
 
 .section-hero-text {
   max-width: 60%;
-  color: var(--quaternary);
+  color: var(--dark-color);
 }
 .section-hero-text h1 {
   font-size: 8rem;
@@ -187,7 +187,7 @@ header nav ul li a {
   flex-direction: column;
 }
 .featured-section-text {
-  color: var(--quaternary);
+  color: var(--dark-color);
   max-width: 40%;
   margin-bottom: 2rem;
 }
@@ -214,12 +214,12 @@ header nav ul li a {
 
 /* Work Section */
 .work-section {
-  background-color: var(--quaternary);
+  background-color: var(--dark-color);
   display: flex;
   align-items: center;
   width: 100vw;
   height: 80vh;
-  color: var(--primary-color);
+  color: var(--lightest-color);
 }
 
 .work-section-image {
@@ -253,22 +253,24 @@ header nav ul li a {
   justify-content: space-between;
 }
 
-.helpful,
-.social-media {
+.helpful {
   display: flex;
   flex-direction: column;
+}
+.social-media a {
+  margin: 0 5px;
 }
 
 /* contact */
 .contact-section {
-  background-color: var(--tertiary-color);
+  background-color: var(--light-color);
   display: flex;
 }
 
 .contact-section h1 {
   font-size: 10rem;
   font-weight: 800;
-  color: var(--quaternary);
+  color: var(--dark-color);
 }
 
 .contact-form {
@@ -285,7 +287,7 @@ header nav ul li a {
   width: 80%;
   padding: 2rem;
   font-weight: 200;
-  background-color: var(--primary-color);
+  background-color: var(--lightest-color);
   border-radius: 10px;
   gap: 2.5rem;
   box-shadow: 15px 15px 15px 5px rgb(222, 214, 214);
@@ -327,24 +329,24 @@ header nav ul li a {
   outline: none;
 }
 .form-btn input:hover {
-  color: var(--secondary-color);
+  color: var(--red-color);
 }
 
 /* Team */
 .team-section {
   width: 100%;
-  color: var(--quaternary);
+  color: var(--dark-color);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color: var(--tertiary-color);
+  background-color: var(--light-color);
 }
 .team-section-card {
   display: flex;
   width: 45%;
   margin: 1rem;
-  box-shadow: 2px 1px 5px var(--quaternary);
+  box-shadow: 2px 1px 5px var(--dark-color);
 }
 
 .team-section-image {
@@ -382,13 +384,16 @@ header nav ul li a {
 .about-text {
   font-size: 2rem;
   font-weight: 200;
-  background-color: var(--tertiary-color);
+  background-color: var(--light-color);
   height: 50vh;
+}
+.featured-section-text h1 {
+  white-space: nowrap;
 }
 
 /* work */
 .work-section-area {
-  background: var(--tertiary-color);
+  background: var(--light-color);
   display: flex;
   height: 100vh;
 }
@@ -406,7 +411,7 @@ header nav ul li a {
 }
 
 .result-work-section {
-  background-color: var(--primary-color);
+  background-color: var(--lightest-color);
   width: 100%;
   border-radius: 2rem;
   padding: 5rem;
@@ -437,7 +442,7 @@ header nav ul li a {
 }
 
 .work-section-select span:hover {
-  color: var(--secondary-color);
+  color: var(--red-color);
 }
 
 /* animation */
@@ -487,7 +492,7 @@ header nav ul li a {
     margin: 0 auto;
   }
   nav ul li a {
-    color: var(--primary-color);
+    color: var(--lightest-color);
     transition: all 0.5s ease;
   }
 
@@ -496,7 +501,7 @@ header nav ul li a {
   }
 
   nav ul li a:hover {
-    color: var(--secondary-color);
+    color: var(--red-color);
     font-size: 3rem;
   }
 
@@ -533,6 +538,7 @@ header nav ul li a {
   .featured-section-text h1 {
     font-size: 4rem;
     margin-bottom: 5rem;
+    white-space: normal;
   }
   .section-hero-text p {
     font-size: 2rem;
@@ -576,12 +582,12 @@ header nav ul li a {
     width: 20px;
   }
   ::-webkit-scrollbar-thumb {
-    background: var(--quaternary);
+    background: var(--dark-color);
     border-radius: 10px;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: var(--primary-color);
+    background: var(--lightest-color);
   }
 }
 
@@ -666,7 +672,7 @@ header nav ul li a {
   }
   .text-style {
     font-size: 5rem;
-    color: var(--secondary-color);
+    color: var(--red-color);
   }
   header nav ul li a {
     font-size: 4rem;
