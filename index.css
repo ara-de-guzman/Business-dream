@@ -100,6 +100,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 header img {
@@ -185,6 +186,7 @@ header nav ul li a {
 .featured-section {
   position: relative;
   flex-direction: column;
+
 }
 .featured-section-text {
   color: var(--dark-color);
@@ -200,16 +202,18 @@ header nav ul li a {
   font-weight: 200;
 }
 
+.featured-section-images {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  background-color: blue;
+}
+
 .featured-section-images img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.featured-section-images {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
 }
 
 /* Work Section */
@@ -218,12 +222,14 @@ header nav ul li a {
   display: flex;
   align-items: center;
   width: 100vw;
+  padding:1rem 2rem;
   height: 80vh;
   color: var(--lightest-color);
 }
 
 .work-section-image {
   width: 50%;
+
 }
 
 .work-section-image img {
@@ -608,7 +614,10 @@ header nav ul li a {
   .work-section-image,
   .work-section-text {
     width: 100%;
+    
   }
+
+
 
   .contact-section {
     flex-direction: column;
