@@ -3,9 +3,12 @@ const navBar = document.querySelector("nav");
 const workNav = document.querySelectorAll(".work-section-select span");
 const resultContainer = document.querySelector(".result-work-section");
 
+
+
 menuBar.addEventListener("click", () => {
   navBar.classList.toggle("show-menu");
 });
+
 
 async function fetchData() {
   try {
